@@ -39,8 +39,8 @@ $(document).ready(function () {
                 <div class="alert alert-info" role="alert">
                     <p>
                         <p>Varieta: ${zucchina.varieta},</p>
-                        <p> Peso: ${zucchina.peso},</p> 
-                        <p>lunghezza: ${zucchina.lunghezza},</p> 
+                        <p> Peso: ${zucchina.peso} kg,</p> 
+                        <p>lunghezza: ${zucchina.lunghezza} cm,</p> 
                 </div>`
 
             // show in the windows
@@ -51,8 +51,8 @@ $(document).ready(function () {
         });
 
         var pesoHtml = /*html*/ ` 
-                <div class="alert alert-success" role="alert">
-                    Il peso totale delle zucchine: ${pesoTotale} 
+                <div class="alert bg-success text-white" role="alert">
+                    Il peso totale delle zucchine: ${pesoTotale} kg
                 </div>`
 
         $('#listNumber').append(pesoHtml);

@@ -1,0 +1,9 @@
+body{
+    background-color: peru;
+}
+
+#listNumber {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, calc(100% / 2 - 10px));
+}
